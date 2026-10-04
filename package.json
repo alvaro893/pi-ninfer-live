@@ -1,0 +1,26 @@
+{
+  "name": "pi-ninfer-live",
+  "version": "0.1.0",
+  "description": "Pi provider for a local NInfer OpenAI-compatible server: live model discovery, thinking levels, and load-aware model listing",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "ninfer",
+    "local-llm",
+    "qwen"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "extensions"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/ninfer-live.ts"
+    ]
+  }
+}
